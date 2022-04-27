@@ -11,7 +11,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Merriweather:ital,wght@0,300;0,700;1,900&family=Quicksand:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/2219dabbe1.js" crossorigin="anonymous"></script>
         <script src="app.js" ></script>        
@@ -31,21 +31,31 @@
     <div class = my-name>
         <h1>Yulia Glushenko</h1>
         <p>Software Engineer</p>
-        <div class = 'button'><a  href="about me.html"> About Me</a></div>
+        <div class = 'slideDown'> About Me</div>
     </div>
 </div>
         </section>
        <section class ='second-half'>
            <div class = 'intro'>
         <h3>Hello! My name is Yulia and I write code. Based in Washington, DC</h3>
-        
+        <div class = 'slideUp'>Close</div>
     </div>
     <div class = 'photo'>
         <img class = 'myphoto' src = 'photo.jpg'>
     </div>
        </section>
        <section class="project-carousel">
-           
+        <i class="fa-solid fa-angles-left" id="prev" ></i>
+           <div class = 'carousel'>
+            
+        <img class ='img' src = 'background/milad-fakurian-iLHDO19h0ng-unsplash.jpg'>
+         <img class ='img' src = 'background/aedrian-0uxZheDn8Nc-unsplash (1).jpg'>
+         <img class ='img' src ='background/pawel-czerwinski-BPrk2cOoCq8-unsplash.jpg'>
+         <img class ='img' src = 'background/nikolay-trebukhin-uFnaLg3gC8c-unsplash.jpg'>
+         <img class ='img' src ='background/pavor-T6kZsf30NW0-unsplash.jpg'>
+         
+        </div>
+        <i class="fa-solid fa-angles-right" id ="next"></i>
        </section>
        
         <footer>
