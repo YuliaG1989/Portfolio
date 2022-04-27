@@ -71,6 +71,10 @@ h1 {
     padding-top: 10px;
     
 }
+
+.slideUp{
+    display:block;
+}
 .my-name-box{
     display: flex;
     flex-direction: column;
@@ -116,6 +120,19 @@ h1 {
     height:450px;
     background-image: url('https://i.imgur.com/P9viH2Q.jpg?3');
 } */
+.skills{
+    width: 700px;
+    display: flex;
+    justify-items:flex-start ;
+    flex-direction: column;
+}
+.dev-skills{
+    font-size: 30px;
+    margin: 20px;
+}
+.intro{
+    height: 250px;
+}
 .resume{
     height: 500px;
     font-size: 40px;;  
@@ -147,7 +164,7 @@ h1 {
 .myphoto {
     width: 300px;
     border-radius: 150px;
-    
+    margin: 20px 80px 0 0;
 }
 .projects{
     display: flex;
