@@ -247,12 +247,14 @@ input[type=text] {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative
+    /* position: relative; */
+    margin: 0 200px 0 200px;
+    
 }
 .img{
     width: 80%;
     height: 300px;
-    ;
+    margin: 20px;
 }
 .carousel img{
     display: none;
@@ -261,9 +263,17 @@ input[type=text] {
 .carousel img:first-of-type{
     display: block;
 }
- #prev, #next{
+ #prev{
      float: left;
      cursor: pointer;
      font-size: 30px;
-     margin: 20px 0 20px 0;
+     margin: 150px 0 0 150px;
+     
+ }
+ #next{
+    float: right;
+    cursor: pointer;
+    font-size: 30px;
+    margin: -150px 150px 0 0;
+   
  }
