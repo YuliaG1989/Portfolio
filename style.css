@@ -94,3 +94,39 @@ h1 {
     height: 50px;
     
 }
+
+.about-me {
+    height: 500px;
+    font-size: 40px;;
+}
+.about-me-bottom{
+    height:450px;
+    background-image: url('https://i.imgur.com/P9viH2Q.jpg?3');
+}
+.resume{
+    height: 500px;
+    font-size: 40px;;  
+}
+.resume-bottom{
+    height:450px;
+    background-image: url('https://i.imgur.com/P9viH2Q.jpg?3');
+}
+
+.contact{
+    font-size:40px;
+    height: 300px;
+}
+.contact-bottom{
+    height:650px;
+    background-image: url('https://i.imgur.com/P9viH2Q.jpg?3');
+}
+
+.work{
+    font-size: 40px;
+    height:600px;
+}
+
+.work-bottom{
+    height:300px;
+    background-image: url('https://i.imgur.com/P9viH2Q.jpg?3')
+}
