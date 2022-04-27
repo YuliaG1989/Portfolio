@@ -33,6 +33,55 @@ $('.slideDown').on('click', function(){
 $('.slideUp').css('cursor', 'pointer')
 $('.slideUp').on('click', function(){
     $('.second-half').slideUp()
-
 })
+////////////////////////////////////////////////////////////////////////
+
+
+//////////////////////////Projects 'OnClick/////////////////////////////
+$('.hidden-pj1').css('display', 'none')
+$('#pj1').css('cursor', 'pointer')
+$('#pj1').on('click',function(){
+    $('.hidden-pj1').slideDown()
+})
+$('#pj1').on('dblclick',function(){
+        $('.hidden-pj1').slideUp()
+})
+
+$('.hidden-pj2').css('display', 'none')
+$('#pj2').css('cursor', 'pointer')
+$('#pj2').on('click',function(){
+    $('.hidden-pj2').slideDown()
+})
+$('#pj2').on('dblclick',function(){
+        $('.hidden-pj2').slideUp()
+})
+
+$('.hidden-pj3').css('display', 'none')
+$('#pj3').css('cursor', 'pointer')
+$('#pj3').on('click',function(){
+    $('.hidden-pj3').slideDown()
+})
+$('#pj3').on('dblclick',function(){
+        $('.hidden-pj3').slideUp()
+})
+
+
+$('.hidden-pj4').css('display', 'none')
+$('#pj4').css('cursor', 'pointer')
+$('#pj4').on('click',function(){
+    $('.hidden-pj4').slideDown()
+})
+$('#pj4').on('dblclick',function(){
+        $('.hidden-pj4').slideUp()
+})
+
+$('.hidden-pj5').css('display', 'none')
+$('#pj5').css('cursor', 'pointer')
+$('#pj5').on('click',function(){
+    $('.hidden-pj5').slideDown()
+})
+$('#pj5').on('dblclick',function(){
+        $('.hidden-pj5').slideUp()
+})
+
 })
