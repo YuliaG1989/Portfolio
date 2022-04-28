@@ -1,9 +1,10 @@
 body{
     /* background-color: whitesmoke; */
-    background-image: url('https://i.imgur.com/P9viH2Q.jpg?3');
+    background-image: url('background/background.jpg');
     font-family: 'Merriweather', serif;
     margin: 0;
-    width: 100%
+    width: 100%;
+    color:antiquewhite
     
 }
 .ham{
@@ -14,7 +15,7 @@ body{
             display: block;
             border: 0;
             background-color: transparent;
-            color:rgb(0, 0, 0);
+            color:antiquewhite;
             font-size: 30px;
         }
         .navigation{
@@ -38,7 +39,7 @@ body{
 .AboutMe{
     display: flex;
     justify-content: space-between;
-    background-color: whitesmoke;
+    
     height: 450px;
     
 }
@@ -65,12 +66,15 @@ nav {
 
 li {
  padding: 15px;
- 
+ color: antiquewhite;
   
 }
 a {
-    color: rgb(0, 0, 0);
+    color: antiquewhite;
     text-decoration: none; 
+}
+a:hover{
+    text-decoration: underline;
 }
 
 h1 {
@@ -93,7 +97,7 @@ h1 {
     border-radius: 40px;
     text-align: center;
     text-decoration: none;
-    color: black;
+    color:black;
     padding-top: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -111,6 +115,7 @@ h1 {
 
 .button:hover{
     background-color: rgb(169, 169, 235);
+    text-decoration: underline;
 }
 
 .bottom{
@@ -145,7 +150,7 @@ h1 {
     display: flex;
     justify-items:flex-start ;
     flex-direction: column;
-    background-color: whitesmoke;
+    
 }
 .dev-skills{
     font-size: 30px;
@@ -178,9 +183,18 @@ h1 {
     display: flex;
     flex-direction: column;
     text-align: center;
+    
+}
+#email a{
+    color: black;
 }
 .socials{
     display:none;
+    margin-left: 27%;
+    margin-top: 30px;
+}
+#soc{
+    font-size: 40px;
 }
 .work{
     font-size: 40px;
@@ -258,11 +272,6 @@ h1 {
 }
 
 
-
-
-.project-carousel{
-    background-color: whitesmoke;
-}
 .carousel{
     display: flex;
     flex-direction: column;
@@ -299,3 +308,12 @@ h1 {
    
  }
 
+h2{
+    text-align: center;
+}
+#social{
+    
+    margin-left: 40%;
+    margin-top: 50px;
+   
+}
