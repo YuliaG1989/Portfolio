@@ -1,18 +1,41 @@
 body{
-    background-color: whitesmoke;
-    /* background-image: url('https://i.imgur.com/P9viH2Q.jpg?3'); */
+    /* background-color: whitesmoke; */
+    background-image: url('https://i.imgur.com/P9viH2Q.jpg?3');
     font-family: 'Merriweather', serif;
     margin: 0;
     width: 100%
     
 }
-.first-half {
+.ham{
+    display: none;
+}
+@media only screen and (max-width: 1000px){
+        .ham{
+            display: block;
+            border: 0;
+            background-color: transparent;
+            color:rgb(0, 0, 0);
+            font-size: 30px;
+        }
+        .navigation{
+             display: flex;
+         
+        }
+        .nav {
+            display: none;
+            margin:0;
     
-    height: 500px;
-    background-image: url('https://i.imgur.com/P9viH2Q.jpg?3');
+        } 
+          
+} 
+
+
+.first-half {
+/*     
+    background-image: url('https://i.imgur.com/P9viH2Q.jpg?3'); */
     font-size: 40px;
 }
-.second-half{
+.AboutMe{
     display: flex;
     justify-content: space-between;
     background-color: whitesmoke;
@@ -38,6 +61,8 @@ nav {
     font-size: 20px;
    
 }
+
+
 li {
  padding: 15px;
  
@@ -59,7 +84,8 @@ h1 {
     align-items: center;
     
 }
-.slideDown, .slideUp{
+.button{
+    display: inline-block;
     width: 200px;
     height: 40px;
     font-size: 25px;
@@ -69,10 +95,11 @@ h1 {
     text-decoration: none;
     color: black;
     padding-top: 10px;
-    
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
-.slideUp{
+#slideUp{
     display:block;
 }
 .my-name-box{
@@ -112,54 +139,55 @@ h1 {
     
 }
 
-/* .about-me {
-    height: 500px;
-    font-size: 40px;;
-}
-.about-me-bottom{
-    height:450px;
-    background-image: url('https://i.imgur.com/P9viH2Q.jpg?3');
-} */
+
 .skills{
-    width: 700px;
+   
     display: flex;
     justify-items:flex-start ;
     flex-direction: column;
+    background-color: whitesmoke;
 }
 .dev-skills{
     font-size: 30px;
     margin: 20px;
+    border-bottom: 1px solid black; 
 }
 .intro{
     height: 250px;
+    
+    font-size: 25px;
+    padding: 20px;
 }
 .resume{
     height: 500px;
     font-size: 40px;;  
 }
-.resume-bottom{
-    height:450px;
-    background-image: url('https://i.imgur.com/P9viH2Q.jpg?3');
-}
+
 
 .contact{
     font-size:40px;
     height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
-.contact-bottom{
-    height:650px;
-    background-image: url('https://i.imgur.com/P9viH2Q.jpg?3');
+.email{
+    width: 200px;
+    margin-left: 40%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
-
+.socials{
+    display:none;
+}
 .work{
     font-size: 40px;
     height:600px;
 }
 
-.work-bottom{
-    height:300px;
-    background-image: url('https://i.imgur.com/P9viH2Q.jpg?3')
-}
+
 
 .myphoto {
     width: 300px;
@@ -224,41 +252,16 @@ h1 {
 .resume-text{
     background-color: rgb(0,0,0,0.5);
     width: 500px;
-    height:600px;
+    height:500px;
     color: white;
     font-size: 20px;
 }
-.contact{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-.contact-box{
-    width: 500px;
-    height:500px;
-    font-size: 30px;
-}
-.message{
-    width: 500px;
-    height: 200px;
-    padding: 2px;
-    border: 2px
-}
-.subject{
-    width: 500px;
-    height: 20px;
-    padding: 2px;
-    border: 2px
-}
-input[type=text] {
-    width: 250px;
-    height: 20px;
-    padding: 2px;
-    border:2px
-}
+
+
+
+
 .project-carousel{
-    
-    
+    background-color: whitesmoke;
 }
 .carousel{
     display: flex;
@@ -266,6 +269,7 @@ input[type=text] {
     align-items: center;
     /* position: relative; */
     margin: 0 200px 0 200px;
+    
     
 }
 .img{
@@ -294,3 +298,4 @@ input[type=text] {
     margin: -150px 150px 0 0;
    
  }
+

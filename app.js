@@ -24,15 +24,15 @@ $('#prev').on('click', function(){
 ////////////////////////////////////////////////////////////////////////
 
 //////////////////About Me and Close buttons 'onClick' /////////////////
-$('.second-half').css('display', 'none')
+$('.AboutMe').css('display', 'none')
 
-$('.slideDown').css('cursor', 'pointer')
-$('.slideDown').on('click', function(){
-    $('.second-half').slideDown()
+$('#slideDown').css('cursor', 'pointer')
+$('#slideDown').on('click', function(){
+    $('.AboutMe').slideDown()
 })
-$('.slideUp').css('cursor', 'pointer')
-$('.slideUp').on('click', function(){
-    $('.second-half').slideUp()
+$('#slideUp').css('cursor', 'pointer')
+$('#slideUp').on('click', function(){
+    $('.AboutMe').slideUp()
 })
 ////////////////////////////////////////////////////////////////////////
 
@@ -82,6 +82,54 @@ $('#pj5').on('click',function(){
 })
 $('#pj5').on('dblclick',function(){
         $('.hidden-pj5').slideUp()
+})
+
+
+
+//////////////////////////Hamburger Menu/////////////////////////////
+
+const $ham = $('.ham')
+const $nav = $('.nav')
+
+$ham.on('click', function(){
+    $nav.slideToggle()})
+
+
+
+//////////////////////////Socials Toggle/////////////////////////////
+
+const $social = $('#social').css('cursor', 'pointer')
+const $socButtons =$('.socials')
+
+$social.on('click', function(){
+    $socButtons.slideToggle()})
+
+
+
+//////////////////////////Main Page Slides/////////////////////////////
+$('.skills').css('display', 'none')
+
+$('#slideDownSkills').css('cursor', 'pointer')
+$('#slideDownSkills').on('click', function(){
+    $('.skills').slideDown()
+})
+$('#slideUpSkills').css('cursor', 'pointer')
+$('#slideUpSkills').on('click', function(){
+    $('.skills').slideUp()
+})
+
+///////////////////////////
+
+$('.project-carousel').css('display', 'none')
+
+$('#slideDownWork').css('cursor', 'pointer')
+$('#slideDownWork').on('click', function(){
+    $('.project-carousel').slideDown()
+})
+
+$('#slideUpWork').css('cursor', 'pointer')
+$('#slideUpWork').on('click', function(){
+    $('.project-carousel').slideUp()
 })
 
 })
