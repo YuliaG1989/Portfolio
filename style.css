@@ -43,9 +43,9 @@ body{
             height: 30%;
         }
         
-         #r1, #r2{
+         /* #r1, #r2{
               display: none;
-          }
+          } */
 
           .socials{
               display:flex;
