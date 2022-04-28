@@ -46,6 +46,12 @@ body{
          #r1, #r2{
               display: none;
           }
+
+          .socials{
+              display:flex;
+              flex-direction: column;
+             
+          }
 } 
 
 
