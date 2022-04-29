@@ -43,16 +43,17 @@ body{
             height: 30%;
         }
         
-         #r1, #r2{
-              display: none;
-          }
+         .reach{
+             font-size: larger;
+         }
 
           
 
           .socials{
               display:flex;
-              flex-direction: column;
-             
+              /* flex-direction: column; */
+              flex-wrap: wrap;
+                width:50%;
           }
 } 
 
