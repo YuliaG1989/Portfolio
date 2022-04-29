@@ -26,6 +26,7 @@
 3. Discovered slideUp() slideDown() toggle() functions - used most of it on my home page
 4. Added more css (shadow boxes, moved things around etc.)
 5. Removed sticky footer and contact form. Instead of  contact form attached the button that will open email that goes straight to me and another button with sliding out socials.
+6. Discovering dblClick() in Jquery
 
 ////////Day 4//////
 
