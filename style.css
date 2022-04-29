@@ -12,9 +12,16 @@ body{
 .ham{
     display: none;
 }
-
+#placeholder{
+    display: none;
+}
 @media only  screen and (max-width: 1000px){
-    
+        
+    #placeholder{
+        display: block;
+        margin-left: 30%;
+        margin-bottom: 30px;
+     }
        .skills-list{
            display: flex;
            flex-direction: column;
