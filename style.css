@@ -12,7 +12,9 @@ body{
 .ham{
     display: none;
 }
+
 @media only  screen and (max-width: 1000px){
+    
        .skills-list{
            display: flex;
            flex-direction: column;
@@ -384,3 +386,11 @@ h2{
     bottom: 0;
     position: relative;
 } */
+
+select{
+    outline: none;
+    background-color: lavender;
+    border: 0;
+    font-family: 'Merriweather', serif;
+    font-size: 23px;
+}
