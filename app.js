@@ -26,6 +26,8 @@ $('#prev').on('click', function(){
 //////////////////About Me and Close buttons 'onClick' /////////////////
 $('.AboutMe').css('display', 'none')
 
+
+
 $('#slideDown').css('cursor', 'pointer')
 $('#slideDown').on('click', function(){
     $('.AboutMe').slideDown()
