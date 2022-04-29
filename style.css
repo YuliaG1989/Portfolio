@@ -4,14 +4,26 @@ body{
     font-family: 'Merriweather', serif;
     margin: 0;
     width: 100%;
-    color:antiquewhite
+    color:antiquewhite;
+    
     
 }
-
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+  }
 .ham{
     display: none;
 }
-@media only screen and (max-width: 1000px){
+@media  screen and (max-width: 1000px){
+        .AboutMe, .skills{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-bottom: 80px;
+        }
         .ham{
             display: block;
             border: 0;
@@ -34,33 +46,24 @@ body{
         
         #slideDownWork{
             display: none;
-        }
-        section.project-carousel{
+        } 
+         section.project-carousel{
             display: none;
         }
-        
-        .dev-skills{
-            display: block;
-        }
-        .skills{
-            margin-top: 500px;
-            height: 30%;
-        }
+       
         
          .reach{
              font-size: larger;
          }
-
-          
-
           .socials{
               display:flex;
               /* flex-direction: column; */
               flex-wrap: wrap;
                 width:50%;
-          }
+            }
+           
+        
 } 
-
 
 .first-half {
 /*     
@@ -190,7 +193,6 @@ h1 {
 }
 .intro{
     height: 250px;
-    
     font-size: 25px;
     padding: 20px;
 }
