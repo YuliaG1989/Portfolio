@@ -25,6 +25,9 @@ body{
         color: rgb(7, 3, 13);
         font-weight: 800;
     }
+    select{
+        font-weight: 800;
+    }
     .placeholder{
         display: block;
         /* margin-left: 30%;
@@ -410,6 +413,7 @@ select{
     font-family: 'Merriweather', serif;
     font-size: 25px;
     text-align: center;
+    /* font-weight: 800; */
     
 }
 
