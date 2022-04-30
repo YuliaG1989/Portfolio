@@ -21,9 +21,9 @@ body{
 }
 
 @media only  screen and (max-width: 1000px){
-    .my-name-box{
+    /* .my-name-box{
         color: rgb(7, 3, 13);
-    }
+    } */
     .placeholder{
         display: block;
         /* margin-left: 30%;
