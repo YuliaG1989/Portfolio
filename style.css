@@ -21,9 +21,10 @@ body{
 }
 
 @media only  screen and (max-width: 1000px){
-    /* .my-name-box{
+    .my-name-box{
         color: rgb(7, 3, 13);
-    } */
+        font-weight: 800;
+    }
     .placeholder{
         display: block;
         /* margin-left: 30%;
@@ -63,7 +64,7 @@ body{
        
         
          .reach{
-             font-size: larger;
+             font-weight: 800;
          }
           .socials{
               display:flex;
