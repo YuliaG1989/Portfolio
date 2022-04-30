@@ -1,6 +1,7 @@
 body{
     /* background-color: whitesmoke; */
     background-image: url('background/background.jpg');
+    
     font-family: 'Merriweather', serif;
     margin: 0;
     width: 100%;
@@ -12,7 +13,7 @@ body{
 .ham{
     display: none;
 }
-#placeholder{
+.placeholder{
     display: none;
 }
 .cat{
@@ -20,12 +21,10 @@ body{
 }
 
 @media only  screen and (max-width: 1000px){
-      body{
-        text-size-adjust: 100% ;
-      }
-          
-      
-    #placeholder{
+    .my-name-box{
+        color: rgb(7, 3, 13);
+    }
+    .placeholder{
         display: block;
         /* margin-left: 30%;
         margin-bottom: 30px; */
@@ -86,18 +85,18 @@ body{
 .AboutMe{
     display: flex;
     justify-content: space-between;
-    height: 450px;
-    
+    /* height: 450px; */
+    margin-top: -100px;
 }
 .intro{
-    height: 250px;
+    /* height: 250px; */
     font-size: 25px;
     padding: 20px;
 }
-.project-carousel{
+/* .project-carousel{
     height: 450px;
    
-}
+} */
 
 nav {
     display: flex; 
@@ -259,10 +258,10 @@ h1 {
  .project-box {
      width: 100%;
      display: flex;
-     height: 100px;
+     height: 200px;
      box-shadow: 5px 5px  10px lightgray;
      color: white;
-     font-size: 20px;
+     font-size: 40px;
      justify-content: center
      
  }
@@ -413,3 +412,13 @@ select{
     
 }
 
+
+.triangle{
+    display: flex;
+    justify-content:flex-end;
+    width: 600px;
+    float: right;
+    margin-top: -300px;
+    margin-right: 3em;
+    
+}
