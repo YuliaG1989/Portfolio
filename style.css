@@ -5,8 +5,8 @@ body{
     margin: 0;
     width: 100%;
     color:antiquewhite;
-    font-size: 40px;
-    
+    font-size: 3em;
+   
 }
 
 .ham{
@@ -15,10 +15,17 @@ body{
 #placeholder{
     display: none;
 }
+.cat{
+    font-size: 50px;
+}
+
 @media only  screen and (max-width: 1000px){
+      body{
+        text-size-adjust: 100% ;
+      }
+          
       
     #placeholder{
-        color: black;
         display: block;
         /* margin-left: 30%;
         margin-bottom: 30px; */
@@ -173,11 +180,7 @@ h1 {
     
 }
 
-.logo{
-    height: 40px;
-    text-align: center;
-    
-}
+
 #ig{
     height: 50px;
 }
@@ -355,7 +358,7 @@ section.education{
     float: right;
     cursor: pointer;
     font-size: 30px;
-    margin: -150px 150px 0 0;
+    margin: -180px 150px 0 0;
    
  }
 
@@ -400,7 +403,9 @@ h2{
 select{
     outline: none;
     background-color: lavender;
+    color: black;
     border: 0;
     font-family: 'Merriweather', serif;
     font-size: 23px;
 }
+
