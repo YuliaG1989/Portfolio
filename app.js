@@ -177,6 +177,9 @@ function closeWelcome(){
 }
 setTimeout(closeWelcome, 2000)
 
+
+
+
 // $closeButton.on('click', closeWelcome)
 ///////////////Home Button Hover/////////////
 
@@ -185,6 +188,9 @@ const $cat = $('.cat')
 $cat.css('cursor', 'pointer')
 $cat.hover( function(){
     $('.home').toggle()})
+
+
+
 
 })
 
