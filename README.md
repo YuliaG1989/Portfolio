@@ -40,3 +40,4 @@
 2. Fixed the look of "select" button.
 3. Played around with animation.css(took me a while to make it work), but did not use it for the end result.
 4. Resume contact and projects contents slideDown() automatically when page downloads.
+5. Added Welcome message to the front page.

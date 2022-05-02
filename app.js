@@ -162,5 +162,22 @@ $(document).ready(function(){
     $('.projects').slideDown('slow')
 })
 
+//////////Adding Welcome Message/////////
+const $welcome = $('.welcome')
+const $closeButton = $('#close').css('cursor', 'pointer')
+
+function startWelcome (){
+    $welcome.css('display', 'block')
+}
+setTimeout(startWelcome(), 5000)
+
+function closeWelcome(){
+    $welcome.css('display', 'none')
+
+}
+
+$closeButton.on('click', closeWelcome)
+
+
 })
 
