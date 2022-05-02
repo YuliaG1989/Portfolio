@@ -166,10 +166,10 @@ $(document).ready(function(){
 const $welcome = $('.welcome')
 const $closeButton = $('#close').css('cursor', 'pointer')
 
-function startWelcome (){
+$(document).ready(function startWelcome (){
     $welcome.css('display', 'block')
-}
-setTimeout(startWelcome, 2000)
+})
+
 
 
 
@@ -177,7 +177,7 @@ function closeWelcome(){
     $welcome.css('display', 'none')
 
 }
-setTimeout(closeWelcome, 5000)
+setTimeout(closeWelcome, 2000)
 
 // $closeButton.on('click', closeWelcome)
 
