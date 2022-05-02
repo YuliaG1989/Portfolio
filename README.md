@@ -39,4 +39,4 @@
 1. Added png image to front page. Put it in a separate div and used flex box and margin to look it good around other content
 2. Fixed the look of "select" button.
 3. Played around with animation.css(took me a while to make it work), but did not use it for the end result.
-4. Resume and contact contents slideDown() automatically when page downloads.
+4. Resume contact and projects contents slideDown() automatically when page downloads.

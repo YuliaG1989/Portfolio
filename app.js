@@ -156,5 +156,11 @@ $(document).ready(function(){
     $('.reach').slideDown('slow')
 })
 
+////////Contact Slides//////////////
+$(document).ready(function(){
+    $('.projects').hide()
+    $('.projects').slideDown('slow')
+})
+
 })
 
