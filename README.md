@@ -33,3 +33,9 @@
 1. Stuck on responsive web - sections were overlapping( kinda found the solution in margin, it works but it doesn't look the best)
 2. Added placeholder for my projects. It is only visible on the  mobile version.
 3. Fixed Resume page
+
+////////Day 5//////
+
+1. Added png image to front page. Put it in a separate div and used flex box and margin to look it good around other content
+2. Fixed the look of "select" button.
+3. Played around with animation.css(took me a while to make it work), but did not use it for the end result.
