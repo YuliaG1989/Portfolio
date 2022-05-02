@@ -439,15 +439,19 @@ select{
 }
 
 .message {
-   
-    margin-top: 300px;
+    
+    margin-top: 200px;
     margin-left: 400px;
     background-color: rgb(0, 0, 0, 0.8);
     border-radius: 10px;
-    width: 600px;
-    height: 300px;
+    width: 700px;
+    height: 400px;
     z-index: 2;
     text-align: center;
     box-shadow: 5px 5px 10px lightblue;
     position: absolute;
+}
+#close{
+    margin-top: 150px;
+    
 }
