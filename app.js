@@ -139,7 +139,7 @@ $('#slideUpWork').on('click', function(){
 
 
 
-/////////////Resume Sliding /////////////
+/////////////Resume Slides /////////////
 
 $(document).ready(function(){
     $('.education').hide()
@@ -148,6 +148,12 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('.working').hide()
     $('.working').slideDown('slow')
+})
+
+////////Contact Slides//////////////
+$(document).ready(function(){
+    $('.reach').hide()
+    $('.reach').slideDown('slow')
 })
 
 })
