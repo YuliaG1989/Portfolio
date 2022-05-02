@@ -137,4 +137,18 @@ $('#slideUpWork').on('click', function(){
     $('.project-carousel').slideUp()
 })
 
+
+
+/////////////Resume Sliding /////////////
+
+$(document).ready(function(){
+    $('.education').hide()
+    $('.education').slideDown('slow')
 })
+$(document).ready(function(){
+    $('.working').hide()
+    $('.working').slideDown('slow')
+})
+
+})
+

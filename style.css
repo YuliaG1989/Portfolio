@@ -33,11 +33,11 @@ body{
         /* margin-left: 30%;
         margin-bottom: 30px; */
      }
-       .skills-list{
+       /* .skills-list{
            display: flex;
            flex-direction: column;
            margin-top: 100px;
-       }
+       } */
         .ham{
             display: block;
             border: 0;
