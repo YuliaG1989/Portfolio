@@ -88,7 +88,6 @@ function App() {
       src={carousel}
       alt="Third slide"
     />
-
     <Carousel.Caption style={{  top: '40%', color: 'black'}}>
       <h1>Bootstrap || Material UI </h1>
     </Carousel.Caption>
@@ -128,7 +127,7 @@ function App() {
           
       </div>
       </Container>
-     <Container  ref={workRef} style={{marginTop: 200}}>
+     <Container  ref={workRef} style={{marginTop: 100}}>
        <div className='row'>
        <div className='col-sm-6'>
        <h1  style={{textAlign: 'center', marginTop:250}}>Work experience</h1>
@@ -164,7 +163,7 @@ function App() {
 </div>   
      </Container>
  <Container style={{marginTop: 100}}>
- <div className="row" >
+ <div className="row" style={{flexWrap:'wrap-reverse'}} >
  <div className="col-sm-6">
    <div>
      <h3>Software Engineering</h3>
