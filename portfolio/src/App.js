@@ -190,10 +190,10 @@ function App() {
  </Container>
  <Container style={{marginTop: 100}}>
    <div className="row">
-   <div className="col-sm-6">
+   <div className="col-sm-3">
    <h1 ref={projRef} style={{textAlign: 'center', marginTop: 350}}>Projects.</h1>
    </div>
-   <div className="col-sm-6">
+   <div className="col-sm-9">
      
     <iframe style={{ width:'100%', height: 300, marginBottom: 20}} src = "https://floating-beyond-35055.herokuapp.com/"></iframe>
     
