@@ -1,14 +1,15 @@
 
 import './App.css';
-import {React, useState, useRef} from 'react'
+import {React, useState, useRef, useEffect} from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
-import {Navbar, Container, Nav, Carousel, Button} from 'react-bootstrap'
+import {Navbar, Container, Nav, Carousel, NavDropdown} from 'react-bootstrap'
 import { FaLinkedin, FaGithub, FaEnvelope, FaBars } from "react-icons/fa"
 
 import carousel from './carousel.jpeg'
 import photo from './photo.jpg'
-function App() {
 
+function App() {
+ 
   const aboutRef = useRef()
   const workRef = useRef()
   const scrollDown = () => {
@@ -40,7 +41,13 @@ function App() {
       <Nav.Link onClick={scrollDown}>About</Nav.Link>
       <Nav.Link onClick={scrollWork}>Resume</Nav.Link>
       <Nav.Link href="#pricing">Work</Nav.Link>
-      <Nav.Link href="#pricing">Contact</Nav.Link>
+      
+      <NavDropdown title="Contact" id="basic-nav-dropdown">
+          <NavDropdown.Item href="mailto:yulia.glushenko@gmail.com">Email <FaEnvelope/></NavDropdown.Item>
+          <NavDropdown.Item href="https://www.linkedin.com/in/yulia-glushenko/" target='_blank'>LinkedIn <FaLinkedin/></NavDropdown.Item>
+        </NavDropdown>
+
+      {/* <Nav.Link href="#pricing">Contact</Nav.Link> */}
     </Nav>
     </Container>
   </Navbar>
@@ -104,7 +111,8 @@ function App() {
             My mission is to contribute my knowledge and skills to new projects that make a difference - one line of code at a time. 
             Interested in both front-end and back-end spectrum and working on ambitious projects with positive people.
             <p style={{marginTop: 20}}>
-            Let's work together! <a href="mailto:yulia.glushenko@gmail.com"> <FaEnvelope/></a>
+            Let's work together! <a href="mailto:yulia.glushenko@gmail.com"> <FaEnvelope/></a> < a href="https://www.linkedin.com/in/yulia-glushenko/"> <FaLinkedin/></a>
+            < a href="https://github.com/YuliaG1989"> <FaGithub/></a>
             </p>
             </div>
               <div className='col-sm-3'>
@@ -172,7 +180,13 @@ function App() {
    </div>
    
  </Container>
-      
+ <Container style={{marginTop: 100}}>
+   <h1>Projects.</h1>
+    <iframe style={{width: '100vw', height: 300}} src = "https://floating-beyond-35055.herokuapp.com/"></iframe>
+    <iframe style={{width: '100vw', height: 300}} src = "https://homegoods-store.herokuapp.com/"></iframe>
+    <iframe style={{width: '100vw', height: 300}} src = "https://travelblogfrontend.herokuapp.com/"></iframe>
+ </Container>
+    
 <footer id ='footer' style={{textAlign: 'center'}}>
       Yulia Glushenko.
       <p>
