@@ -12,6 +12,7 @@ function App() {
  
   const aboutRef = useRef()
   const workRef = useRef()
+  const projRef = useRef()
   const scrollDown = () => {
     window.scrollTo({
       top: aboutRef.current.offsetTop,
@@ -25,7 +26,12 @@ function App() {
       behavior: 'smooth',
     });
   };
-
+  const scrollProjects = () => {
+    window.scrollTo({
+      top: projRef.current.offsetTop,
+      behavior: 'smooth',
+    });
+  };
   return (
     <>
       
@@ -40,7 +46,7 @@ function App() {
     <Nav className="ml-auto" align="right">
       <Nav.Link onClick={scrollDown}>About</Nav.Link>
       <Nav.Link onClick={scrollWork}>Resume</Nav.Link>
-      <Nav.Link href="#pricing">Work</Nav.Link>
+      <Nav.Link onClick={scrollProjects}>Projects</Nav.Link>
       
       <NavDropdown title="Contact" id="basic-nav-dropdown">
           <NavDropdown.Item href="mailto:yulia.glushenko@gmail.com">Email <FaEnvelope/></NavDropdown.Item>
@@ -122,8 +128,8 @@ function App() {
           
       </div>
       </Container>
-     <Container className='row' ref={workRef} style={{marginTop: 200}}>
-       
+     <Container  ref={workRef} style={{marginTop: 200}}>
+       <div className='row'>
        <div className='col-sm-6'>
        <h1  style={{textAlign: 'center', marginTop:250}}>Work experience</h1>
        </div>
@@ -154,9 +160,11 @@ function App() {
 <li>Updated and managed project databases.</li>
 </ul>
 </div>
+</div>
 </div>   
      </Container>
- <Container className="row" style={{marginTop: 100}}>
+ <Container style={{marginTop: 100}}>
+ <div className="row" >
  <div className="col-sm-6">
    <div>
      <h3>Software Engineering</h3>
@@ -178,13 +186,24 @@ function App() {
    <div className="col-sm-6">
      <h1 style={{textAlign: 'center', marginTop: 100}}>Education</h1>
    </div>
-   
+   </div>
  </Container>
  <Container style={{marginTop: 100}}>
-   <h1>Projects.</h1>
-    <iframe style={{width: '100vw', height: 300}} src = "https://floating-beyond-35055.herokuapp.com/"></iframe>
-    <iframe style={{width: '100vw', height: 300}} src = "https://homegoods-store.herokuapp.com/"></iframe>
-    <iframe style={{width: '100vw', height: 300}} src = "https://travelblogfrontend.herokuapp.com/"></iframe>
+   <div className="row">
+   <div className="col-sm-6">
+   <h1 ref={projRef} style={{textAlign: 'center', marginTop: 350}}>Projects.</h1>
+   </div>
+   <div className="col-sm-6">
+     
+    <iframe style={{ width:'100%', height: 300, marginBottom: 20}} src = "https://floating-beyond-35055.herokuapp.com/"></iframe>
+    
+    <iframe style={{ width:'100%', height: 300, marginBottom: 20}} src = "https://homegoods-store.herokuapp.com/"></iframe>
+  
+   
+    <iframe style={{ width:'100%', height: 300}} src = "https://travelblogfrontend.herokuapp.com/" href=""></iframe>
+     
+  </div>
+    </div>
  </Container>
     
 <footer id ='footer' style={{textAlign: 'center'}}>
