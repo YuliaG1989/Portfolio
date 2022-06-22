@@ -206,7 +206,7 @@ function App() {
     </div>
  </Container>
     
-<footer id ='footer' style={{textAlign: 'center'}}>
+<footer id ='footer' style={{textAlign: 'center', marginTop: 30}}>
       Yulia Glushenko.
       <p>
         < a id = 'footerlink' href="https://www.linkedin.com/in/yulia-glushenko/"> <FaLinkedin/></a>
